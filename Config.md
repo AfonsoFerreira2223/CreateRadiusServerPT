@@ -41,21 +41,21 @@
 
 ### Commands:
 
-> aaa new-model
-> username backup privilege 15 password password
-> aaa authentication login default group radius local
-> aaa authentication enable default group radius local
-> radius server host
-> add ipv4 192.168.1.3
-> key password
-> exit
-> ip domain-name cisco.com
-> crypto key generate rsa 
-> 1024
-> ip ssh v 2
-> line vty 0 15
-> transport input ssh
-> no shut
-> login authentication default
+-aaa new-model
+-username backup privilege 15 password password
+-aaa authentication login default group radius local
+- aaa authentication enable default group radius local
+- radius server host
+- add ipv4 192.168.1.3
+- key password
+- exit
+- ip domain-name cisco.com
+- crypto key generate rsa 
+- 1024
+- ip ssh v 2
+- line vty 0 15
+- transport input ssh
+- no shut
+- login authentication default
 
 
